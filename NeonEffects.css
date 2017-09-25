@@ -1,0 +1,37 @@
+.m-live-text {
+  color: #fff;
+  font-size: 20px;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #2bff11, 0 0 70px #2bff11, 0 0 80px #2bff11, 0 0 100px #2bff11, 0 0 150px #2bff11;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #2bff11, 0 0 35px #2bff11, 0 0 40px #2bff11, 0 0 50px #2bff11, 0 0 75px #2bff11;
+  }
+}
+
+
+.m-die-text {
+  color: #fff;
+  font-size: 20px;
+  font-family: Monoton;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #f10000, 0 0 70px #f10000, 0 0 80px #f10000, 0 0 100px #f10000, 0 0 150px #f10000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f10000, 0 0 35px #f10000, 0 0 40px #f10000, 0 0 50px #f10000, 0 0 75px #f10000;
+  }
+}
